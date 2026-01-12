@@ -9,7 +9,7 @@
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <180>;
             bindings = <&kp COMMA>, <&kp DOT>;
         };
     };
@@ -38,7 +38,7 @@
         layer_2 {
             bindings = <
 &none      &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none
-&none  &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none
+&none  &none    &studio_unlock    &none    &none    &none    &none    &none    &none    &none    &none    &none
 &none      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bootloader  &none  &none   &none    &none    &sys_reset    &none
 &none      &bt BT_CLR  &none  &none   &kp DOWN  &none  &none
             >;
