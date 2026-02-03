@@ -1,0 +1,8 @@
+file_format: "1"
+id: ULPB40
+name: ULPB40
+type: shield
+url: https://github.com/
+requires: [pro_micro]
+features:
+  - keys
